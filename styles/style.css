@@ -1,0 +1,60 @@
+/* global */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* car */
+.car {
+  width: 400px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.roof {
+  background-color: rgb(33, 72, 72);
+  width: 200px;
+  height: 50px;
+}
+
+/* body */
+.body {
+  background-color: black;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.front-light {
+  width: 50px;
+  height: 40px;
+  background-color: yellow;
+}
+
+.rear-light {
+  width: 50px;
+  height: 40px;
+  background-color: red;
+}
+
+/* wheels */
+.wheels {
+  position: relative;
+  top: -50px;
+  display: flex;
+  gap: 50px;
+}
+
+.wheel {
+  background-color: brown;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  border: 10px dashed black;
+}
